@@ -1,0 +1,13 @@
+# Learn
+
+## [Programming](https://en.wikipedia.org/wiki/Computer_programming)
+
+Computer programming (often shortened to programming) is a process that leads from an original formulation of a computing problem to executable computer programs.
+
+Programming involves activities such as 
+	* analysis,
+	* developing understanding, 
+	* generating algorithms, 
+	* verification of requirements of algorithms including their correctness and resources consumption, 
+	and 
+	*implementation of algorithms in a target programming language

@@ -1,6 +1,6 @@
 # Learn
 
-## [Programming](https://en.wikipedia.org/wiki/Programming_language)
+## [Programming Language](https://en.wikipedia.org/wiki/Programming_language)
 
 A programming language is a formal language that specifies a set of instructions that can be used to produce various kinds of output
 
