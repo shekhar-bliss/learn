@@ -4,10 +4,17 @@
 
 Computer programming (often shortened to programming) is a process that leads from an original formulation of a computing problem to executable computer programs.
 
-Programming involves activities such as 
+Programming involves activities such as : 
+
 	* analysis,
 	* developing understanding, 
 	* generating algorithms, 
 	* verification of requirements of algorithms including their correctness and resources consumption, 
 	and 
 	*implementation  (commonly referred to as coding) of algorithms in a target programming language
+
+Bullet list:
+
+  * apples
+  * oranges
+  * pears	
