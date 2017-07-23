@@ -10,4 +10,4 @@ Programming involves activities such as
 	* generating algorithms, 
 	* verification of requirements of algorithms including their correctness and resources consumption, 
 	and 
-	*implementation of algorithms in a target programming language
+	*implementation  (commonly referred to as coding) of algorithms in a target programming language

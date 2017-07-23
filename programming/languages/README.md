@@ -7,10 +7,8 @@ A programming language is a formal language that specifies a set of instructions
 Programming languages generally consist of instructions for a computer.
 Programming languages can be used to create programs that implement specific algorithms.
 
-
 #### Syntax
 	A programming language's surface form is known as its syntax.
-
 
 #### Semantics
 	The term semantics refers to the meaning of languages, as opposed to their form (syntax).
