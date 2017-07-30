@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash 
+# Above line is called a shebang or a "bang" line. 
 clear
 echo "This is information provided by ex_00_mysystem.sh. Program starts now."
 
