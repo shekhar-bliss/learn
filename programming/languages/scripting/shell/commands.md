@@ -24,12 +24,12 @@
 * `$BASH_VERSION` – To get bash version. Useful for controlling the shell script flow.
 * `$PPID` – Get parent process ID.
 * `$PS1`, `$PS2`, `$PS3`, `$PS4` – Different prompts. These are useful for menu driven scripts.
-* `In Scripting `:
+* **In Scripting :**
 	* `$RANDOM` – To get a random number, very much useful for giving random passwords for new users.
 	* `$LINENO` – To get what is the present line number the script is executing. Useful for debugging a shell script.
 	* `$REPLY` – REPLY holds last read value.
 	* `$SECONDS` – To get number of seconds the script is running.
-* `Positional parameters`: `$1`, `$2`, `$3`, `$4`, `$5`, `$6`, `$7`, `$8`, `$9`
+* **Positional parameters :** `$1`, `$2`, `$3`, `$4`, `$5`, `$6`, `$7`, `$8`, `$9`
 	* `$0` – Gives script name
 	* `$`* – All positional parameters
 	* `$@` – All positional parameters with spaces
