@@ -126,8 +126,35 @@ unset VAR3
 echo "Hi, $USER!"
 ```
 > 7. For the root account, set the prompt to something like "Danger!! root is doing stuff in \w", preferably
-in a bright color such as red or pink or in reverse video mode.
+in a bright color such as red or pink or in reverse video mode	.
 **A**: 
+vi ~/.bashrc
+```
+#RED
+if [ $EUID = 0 ]; then 
+	echo -e "\e[31mDanger!! root is doing stuff in \w\e[0m"
+fi
+```
+
+```
+#PINK
+if [ $EUID = 0 ]; then 
+	echo -e "\e[95mDanger!! root is doing stuff in \w\e[0m"
+fi
+```
+
+```
+#Reverse video mode
+if [ $EUID = 0 ]; then 
+	echo -e "\e[41mDanger!! root is doing stuff in \w\e[0m"
+fi
+```
+
+```
+# Change user name to red color if it is root
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;41m\]\u@\h\[\033[00m\]:\w\$ '
+```
+[Bash Color Ref](http://misc.flogisoft.com/bash/tip_colors_and_formatting)
 > 8. Make sure that newly created users also get a nice personalized prompt which informs them on which
 system in which directory they are working. Test your changes by adding a new user and logging in
 as that user.
@@ -136,3 +163,24 @@ as that user.
 surface of a rectangle which has these proportions. It should be aired with comments and generate
 elegant output.
 **A**: 
+```
+!/bin/bash
+
+# This script reads 2 positional parameters and prints multipication of them out.
+clear 													# clear terminal window
+echo "This script calculate the surface of a rectangle"
+
+# set a local shell variable RECT_LENGTH and assign value from first positional parameter
+RECT_LENGTH="$1"
+# set a local shell variable RECT_WIDTH and assign value from second positional parameter
+RECT_WIDTH="$2"
+# calculate the surface of a rectangle 
+# via multiplication arithmetic expressions
+RECT_SURFACE=$[RECT_LENGTH*RECT_WIDTH]
+
+# Display input and output
+echo "Length of rectangle is $RECT_LENGTH."
+echo "Width of rectangle is $RECT_WIDTH."
+echo "Surface of rectangle is $RECT_SURFACE"
+
+```
